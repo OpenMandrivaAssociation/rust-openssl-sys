@@ -1,0 +1,8 @@
+--- openssl-sys-0.9.54/Cargo.toml	2020-01-29T23:37:01+00:00
++++ openssl-sys-0.9.54/Cargo.toml	2020-01-30T01:20:23.485064+00:00
+@@ -40,5 +40,3 @@
+ 
+ [features]
+ vendored = ["openssl-src"]
+-[target."cfg(target_env = \"msvc\")".build-dependencies.vcpkg]
+-version = "0.2"
