@@ -15,7 +15,7 @@ URL:            https://crates.io/crates/openssl-sys
 Source:         %{crates_source}
 # Initial patched metadata
 # * No windows
-Patch0:         openssl-sys-fix-metadata.diff
+#Patch0:         openssl-sys-fix-metadata.diff
 
 ExclusiveArch:  %{rust_arches}
 %if %{__cargo_skip_build}
