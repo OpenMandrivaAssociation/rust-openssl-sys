@@ -5,8 +5,8 @@
 %global crate openssl-sys
 
 Name:           rust-%{crate}
-Version:        0.9.54
-Release:        1%{?dist}
+Version:        0.9.65
+Release:        1
 Summary:        FFI bindings to OpenSSL
 
 # Upstream license specification: MIT
@@ -15,7 +15,7 @@ URL:            https://crates.io/crates/openssl-sys
 Source:         %{crates_source}
 # Initial patched metadata
 # * No windows
-Patch0:         openssl-sys-fix-metadata.diff
+#Patch0:         openssl-sys-fix-metadata.diff
 
 ExclusiveArch:  %{rust_arches}
 %if %{__cargo_skip_build}
