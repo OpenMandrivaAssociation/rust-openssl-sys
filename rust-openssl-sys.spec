@@ -6,7 +6,7 @@
 
 Name:           rust-%{crate}
 Version:        0.9.72
-Release:        1
+Release:        2
 Summary:        FFI bindings to OpenSSL
 
 # Upstream license specification: MIT
